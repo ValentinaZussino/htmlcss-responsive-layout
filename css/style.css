@@ -34,6 +34,15 @@ body {
 .align-center {
     align-items: center;
 }
+.border-rad {
+    border-radius: 15px;
+}
+.img100 {
+    max-width: 100%;
+}
+.italic {
+    font-style: italic;
+}
 /* HEADER */
 header {
     width: 100%;
@@ -63,13 +72,22 @@ header a {
 #planning, #features, #get-started {
     background-color: var(--violet);
 }
-#intro {
+#intro, #planning {
     padding: 2rem;
 }
+/* intro */
 .card {
     background-color: var(--lightblue);
     margin-bottom: 1.5rem;
-    border-radius: 15px;
+}
+/* planning */
+.white-in-violet {
+    background-color: var(--white);
+    text-align: center;
+    padding: 1rem;
+}
+.white-txt {
+    color: var(--white);
 }
 /* FOOTER */
 footer {
