@@ -61,6 +61,7 @@ header {
     padding: 1rem 2rem;
     position: sticky;
     top: 0;
+    z-index: 900;
 }
 header img {
     width: 4rem;
@@ -192,16 +193,25 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2.5rem 2rem;
+    padding: 3rem 2rem;
+}
+#get-started h2:first-of-type {
+    padding: 1rem 0;
 }
 #free {
     color: var(--yellow);
     font-size: 3rem;
+    padding-bottom: 1rem;
 }
 #get-started .container div {
     background-color: var(--white);
     color: var(--violet);
+    font-weight: bold;
     width: 85%;
+    padding: 1rem;
+    border-radius: 30px;
+    letter-spacing: 0.2em;
+    margin: 1.5rem 0;
 }
 /* FOOTER */
 footer {
@@ -267,6 +277,23 @@ footer {
     }
     #about-us .about-img div:first-of-type {
         width: 85%;
+    }
+    #get-started .container {
+        max-width: 700px;
+    }
+    #get-started .container h2:first-of-type {
+        font-size: 2.5rem;
+    }
+    #free {
+        font-size: 5rem;
+    }
+    #get-started p {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    #get-started .container div {
+        width: 40%;
+        padding: 1.2rem 0;
     }
 }
 @media screen and (min-width:1200px) {
