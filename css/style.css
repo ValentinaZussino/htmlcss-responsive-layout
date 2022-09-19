@@ -152,11 +152,13 @@ header a {
 #features h2 {
     color: var(--white);
     text-align: center;
+    padding-bottom: 1rem;
 }
 .white-card {
     background-color: var(--white);
     color: var(--lightgray);
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 .white-card h3, .white-card span {
     color: var(--violet);
@@ -200,6 +202,17 @@ footer {
     #testimonials .test-col-right .test-name {
         display: inline-block;
     }
+    #features .white-cards-cont {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
+    #features .white-card {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        flex-basis: calc(50% - 1.5rem);
+    }
 }
 @media screen and (min-width:1200px) {
     .container {
@@ -232,5 +245,10 @@ footer {
     }
     #testimonials .test-col-right {
         flex-basis: 70%;
+    }
+    #features .white-card {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        flex-basis: calc(33.33% - 1.5rem);
     }
 }
