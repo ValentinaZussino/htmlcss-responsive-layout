@@ -185,6 +185,24 @@ header a {
     top: -10px;
     right: -10px;
 }
+/* get started */
+#get-started .container {
+    color: var(--white);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 2rem;
+}
+#free {
+    color: var(--yellow);
+    font-size: 3rem;
+}
+#get-started .container div {
+    background-color: var(--white);
+    color: var(--violet);
+    width: 85%;
+}
 /* FOOTER */
 footer {
     background-color: var(--black);
