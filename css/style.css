@@ -40,21 +40,39 @@ header {
     background-color: var(--blue);
     color: var(--white);
     padding: 1rem 2rem;
-    margin-bottom: 50px;
     position: sticky;
     top: 0;
 }
+header img {
+    width: 4rem;
+}
 .hamburger i {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .main-menu {
     display: none;
+}
+header ul li {
+    list-style-type: none;
 }
 header a {
     color: var(--white);
     text-decoration: none;
 }
+/* MAIN */
+#planning, #features, #get-started {
+    background-color: var(--violet);
+}
+#intro {
+    padding: 2rem;
+}
+.card {
+    background-color: var(--lightblue);
+    margin-bottom: 1.5rem;
+    border-radius: 15px;
+}
 /* FOOTER */
 footer {
     background-color: var(--black);
 }
+/* RESPONSIVE */
