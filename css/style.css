@@ -78,7 +78,7 @@ header a {
 #planning, #features, #get-started {
     background-color: var(--violet);
 }
-#intro, #planning {
+#intro, #planning, #testimonials {
     padding: 2rem;
 }
 /* intro */
@@ -105,6 +105,35 @@ header a {
 }
 .violet-arrow {
     background-color: var(--violet);
+}
+/* testimonials */
+.testimonials-txt {
+    text-align: center;
+}
+.testimonials-txt h3 {
+    color: var(--violet);
+}
+.violet-in-white {
+    background-color: var(--violet);
+    color: var(--white);
+    text-align: center;
+    border-radius: 35px;
+    padding: 1.5rem 1rem;
+}
+.violet-in-white div:first-child {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.test-description p {
+    padding: 1rem 0;
+}
+#nat {
+    background-image: url(../img/testimonial1.jpg);
 }
 /* FOOTER */
 footer {
