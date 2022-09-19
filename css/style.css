@@ -40,6 +40,9 @@ body {
 .img100 {
     max-width: 100%;
 }
+.white-txt {
+    color: var(--white);
+}
 .italic {
     font-style: italic;
 }
@@ -81,13 +84,24 @@ header a {
     margin-bottom: 1.5rem;
 }
 /* planning */
+#planning h2 {
+    padding: 2rem 0;
+}
+#planning .container {
+    padding-bottom: 1rem;
+}
+#planning .container > img {
+    padding: 1.5rem 0;
+}
 .white-in-violet {
     background-color: var(--white);
     text-align: center;
     padding: 1rem;
+    border-radius: 35px;
+    margin-top: 1.5rem;
 }
-.white-txt {
-    color: var(--white);
+.violet-arrow {
+    background-color: var(--violet);
 }
 /* FOOTER */
 footer {
