@@ -124,6 +124,7 @@ header a {
     text-align: center;
     border-radius: 35px;
     padding: 1.5rem 1rem;
+    margin-bottom: 1.5rem;
 }
 .violet-in-white div:first-child {
     background-size: cover;
@@ -139,6 +140,12 @@ header a {
 }
 #nat {
     background-image: url(../img/testimonial1.jpg);
+}
+#celia {
+    background-image: url(../img/testimonial2.jpg);
+}
+#bob {
+    background-image: url(../img/testimonial3.jpg);
 }
 /* FOOTER */
 footer {
@@ -170,7 +177,34 @@ footer {
         flex-basis:30%;
     }
     #testimonials .test-col-right {
-        flex-basis: 60%;
+        flex-basis: 65%;
         text-align: left;
+    }
+}
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 990px;
+    }
+    .hamburger {
+        display: none;
+    }
+    .main-menu {
+        display: block;
+    }
+    #planning .container {
+        display: flex;
+        justify-content: center;
+    }
+    #planning .violet-col {
+        flex-basis: 40%;
+        padding: 0 2rem;
+    }
+    #planning .left-col img {
+        padding: 3rem 0;
+    }
+    #planning .right-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
     }
 }
