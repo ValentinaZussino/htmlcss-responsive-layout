@@ -207,4 +207,17 @@ footer {
         flex-direction: column;
         justify-content: end;
     }
+    #testimonials .test-col-left {
+        flex-basis:20%;
+    }
+    #testimonials .test-col-right {
+        flex-basis: 70%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #testimonials .test-col-right .test-name {
+        display: inline-block;
+    }
 }
