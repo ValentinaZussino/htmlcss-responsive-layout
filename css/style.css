@@ -46,6 +46,9 @@ body {
 .italic {
     font-style: italic;
 }
+h2 {
+    font-size: 1.8rem;
+}
 p {
     line-height: 1.6rem;
 }
@@ -109,9 +112,11 @@ header a {
 /* testimonials */
 .testimonials-txt {
     text-align: center;
+    padding: 1rem 0.5rem 2rem 0.5rem;
 }
-.testimonials-txt h3 {
+.testimonials-txt h2 {
     color: var(--violet);
+    padding: 1.5rem 0;
 }
 .violet-in-white {
     background-color: var(--violet);
@@ -157,5 +162,15 @@ footer {
     }
     #intro .card:first-child {
         flex-basis: calc(66.66% - 1.5rem);
+    }
+    #testimonials .violet-in-white {
+        display: flex;
+    }
+    #testimonials .test-col-left {
+        flex-basis:30%;
+    }
+    #testimonials .test-col-right {
+        flex-basis: 60%;
+        text-align: left;
     }
 }
