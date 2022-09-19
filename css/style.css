@@ -15,3 +15,46 @@
     border: 1px solid black;
     min-height: 50px;
 }
+body {
+    background-color: var(--white);
+    font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+    /* appearance: none; */
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+.j-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+/* HEADER */
+header {
+    width: 100%;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 1rem 2rem;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+}
+.hamburger i {
+    font-size: 1.5rem;
+}
+.main-menu {
+    display: none;
+}
+header a {
+    color: var(--white);
+    text-decoration: none;
+}
+/* FOOTER */
+footer {
+    background-color: var(--black);
+}
