@@ -179,6 +179,12 @@ footer {
     #testimonials .test-col-right {
         flex-basis: 65%;
         text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #testimonials .test-col-right .test-name {
+        display: inline-block;
     }
 }
 @media screen and (min-width:1200px) {
@@ -212,12 +218,5 @@ footer {
     }
     #testimonials .test-col-right {
         flex-basis: 70%;
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    #testimonials .test-col-right .test-name {
-        display: inline-block;
     }
 }
