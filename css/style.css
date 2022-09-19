@@ -10,6 +10,7 @@
     --yellow: rgb(253, 193, 95);
     --black: rgb(51, 51, 51);
     --white: rgb(255, 255, 255);
+    --lightgray: rgb(133, 133, 133);
 }
 .debug {
     border: 1px solid black;
@@ -81,7 +82,7 @@ header a {
 #planning, #features, #get-started {
     background-color: var(--violet);
 }
-#intro, #planning, #testimonials {
+#intro, #planning, #testimonials, #features {
     padding: 2rem;
 }
 /* intro */
@@ -146,6 +147,19 @@ header a {
 }
 #bob {
     background-image: url(../img/testimonial3.jpg);
+}
+/* features */
+#features h2 {
+    color: var(--white);
+    text-align: center;
+}
+.white-card {
+    background-color: var(--white);
+    color: var(--lightgray);
+    padding: 1rem;
+}
+.white-card h3, .white-card span {
+    color: var(--violet);
 }
 /* FOOTER */
 footer {
