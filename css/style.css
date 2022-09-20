@@ -359,6 +359,13 @@ footer p:last-child {
     #intro .card:first-child {
         flex-basis: calc(66.66% - 1.5rem);
     }
+    #intro .card #app-store {
+        width: 45%;
+    }
+    #intro .card #phone {
+        width: 50%;
+        padding-right: 0;
+    }
     #testimonials .violet-in-white {
         display: flex;
     }
