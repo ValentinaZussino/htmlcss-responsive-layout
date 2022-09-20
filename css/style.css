@@ -252,14 +252,15 @@ header ul li:last-of-type a {
 #find-me {
     background-color: var(--violet);
     text-align: center;
-    padding: 5px 10px;
-    border-radius: 15px;
+    padding: 0.4rem;
+    border-radius: 20px;
     width: 65%;
     margin: 1rem 0;
 }
 #find-me a {
     text-decoration: none;
     color: var(--white);
+    font-size: 0.8rem;
 }
 /* get started */
 #get-started .container {
@@ -366,6 +367,7 @@ footer p:last-child {
     #about-us .container {
         display: flex;
         justify-content: space-between;
+        padding-left: 1.5rem;
     }
     #about-us .about-txt {
         flex-basis: 70%;
@@ -413,9 +415,9 @@ footer p:last-child {
         padding-bottom: 3.5rem;
     } 
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width:992px) {
     .container {
-        max-width: 990px;
+        max-width: 900px;
     }
     .hamburger {
         display: none;
@@ -450,6 +452,10 @@ footer p:last-child {
         margin-right: 0.75rem;
         flex-basis: calc(33.33% - 1.5rem);
     }
+    #about-us .container {
+        padding-left: 2rem;
+        padding-right: 0.5rem;
+    }
     #about-us .about-txt {
         flex-basis: 80%;
         padding-right: 4.5rem;
@@ -459,5 +465,10 @@ footer p:last-child {
     }
     #find-me {
         width: 85%;
+    }
+}
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1140px;
     }
 }
