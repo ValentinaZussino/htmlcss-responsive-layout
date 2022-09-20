@@ -454,7 +454,6 @@ footer p:last-child {
     }
     #about-us .about-img {
         flex-basis: 30%;
-        /* padding-right: 0.5rem; */
     }
     #about-us .about-img div:first-of-type {
         width: 85%;
@@ -501,6 +500,9 @@ footer p:last-child {
     .main-menu {
         display: block;
     }
+    nav.main-menu ul li:active {
+        transform: scale(1.2);
+    }
     #intro .container .card:first-of-type {
         display: flex;
     }
@@ -531,6 +533,9 @@ footer p:last-child {
         display: flex;
         flex-direction: column;
         justify-content: end;
+    }
+    #planning .right-col .white-in-violet img {
+        width: 75%;
     }
     #testimonials .test-col-left {
         flex-basis:25%;
