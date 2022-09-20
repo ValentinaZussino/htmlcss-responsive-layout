@@ -179,7 +179,7 @@ header ul li:last-of-type a {
 #features h2 {
     color: var(--white);
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 .white-card {
     background-color: var(--white);
@@ -189,6 +189,31 @@ header ul li:last-of-type a {
 }
 .white-card h3, .white-card span {
     color: var(--violet);
+}
+.white-card span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.white-card h3 {
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+.white-card p {
+    font-size: 0.9rem;
+}
+.white-card .more {
+    background-color: var(--violet);
+    width: 50%;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    margin: 1rem 0;
+}
+.white-card .more a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+    letter-spacing: 0.2em;
 }
 /* about us */
 .about-txt h1 {
@@ -327,9 +352,16 @@ footer p:last-child {
         margin-right: -0.75rem;
     }
     #features .white-card {
+        padding: 1.5rem;
         margin-left: 0.75rem;
         margin-right: 0.75rem;
         flex-basis: calc(50% - 1.5rem);
+    }
+    #features .white-card span {
+        font-size: 3rem;
+    }
+    #features .white-card .more {
+        width: 45%;
     }
     #about-us .container {
         display: flex;
