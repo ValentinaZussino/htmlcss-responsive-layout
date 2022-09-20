@@ -62,7 +62,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 900;
-    position: relative;
 }
 header img {
     width: 4rem;
@@ -77,9 +76,8 @@ header img {
     display: block;
     position: absolute;
     right: 0;
-    top: 65px;
-    z-index: 800;
-    background-color: rgba(25, 25, 25, 0.682);
+    top: 60px;
+    background-color: var(--blue);
 }
 .hamburger:hover + .main-menu > ul {
     flex-direction: column;
@@ -374,6 +372,16 @@ footer p:last-child {
 @media screen and (min-width:768px) {
     .container {
         max-width: 750px;
+    }
+    .hamburger:hover + .main-menu > ul {
+        padding: 1.3rem 3.3rem;
+        font-size: 1.5rem;
+    }
+    .hamburger:hover + .main-menu > ul li {
+        margin: 0.8rem 0;
+    }
+    .hamburger:hover + .main-menu > ul li:last-of-type {
+        font-size: 1.3rem;
     }
     #intro .cards {
         display: flex;
