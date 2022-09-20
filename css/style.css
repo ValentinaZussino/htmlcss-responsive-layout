@@ -102,7 +102,7 @@ header ul li:last-of-type a {
 .card #get-demo {
     padding: 1.5rem;
 }
-.card #get-demo h3 {
+.card h3 {
     color: var(--blue);
     font-size: 1.2rem;
     padding-bottom: 1.5rem;
@@ -127,6 +127,15 @@ header ul li:last-of-type a {
 .card #phone img {
     max-width: 100%;
     display: block;
+}
+.card-single {
+    text-align: center;
+    padding: 1.5rem;
+}
+.card span i {
+    color: var(--blue);
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
 }
 /* planning */
 #planning h2 {
