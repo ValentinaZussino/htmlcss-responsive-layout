@@ -16,10 +16,12 @@
     border: 1px solid black;
     min-height: 50px;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: var(--white);
     font-family: 'PT Sans', sans-serif;
-    scroll-behavior: smooth;
     /* appearance: none; */
 }
 .container {
