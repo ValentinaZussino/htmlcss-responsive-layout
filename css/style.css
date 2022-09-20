@@ -62,6 +62,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 900;
+    position: relative;
 }
 header img {
     width: 4rem;
@@ -71,6 +72,20 @@ header img {
 }
 .main-menu {
     display: none;
+}
+.hamburger:hover + .main-menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    z-index: 900;
+    background-color: var(--blue);
+}
+.hamburger:hover + .main-menu > ul {
+    flex-direction: column;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    font-size: 1.2rem;
 }
 header ul li {
     list-style-type: none;
