@@ -74,10 +74,18 @@ header img {
 }
 header ul li {
     list-style-type: none;
+    padding: 5px 15px;
+}
+header ul li:last-of-type {
+    background-color: var(--white);
+    padding: 5px 10px;
 }
 header a {
     color: var(--white);
     text-decoration: none;
+}
+header ul li:last-of-type a {
+    color: var(--black);
 }
 /* MAIN */
 #planning, #features, #get-started {
