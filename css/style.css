@@ -99,6 +99,35 @@ header ul li:last-of-type a {
     background-color: var(--lightblue);
     margin-bottom: 1.5rem;
 }
+.card #get-demo {
+    padding: 1.5rem;
+}
+.card #get-demo h3 {
+    color: var(--blue);
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+.card #app-store {
+    background-color: var(--blue);
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+    text-align: center;
+}
+.card #app-store a {
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+.card #phone {
+    height: 50%;
+    padding: 0.5rem 1.8rem 0 1.8rem;
+}
+.card #phone img {
+    max-width: 100%;
+    display: block;
+}
 /* planning */
 #planning h2 {
     padding: 2rem 0;
