@@ -502,7 +502,8 @@ footer p:last-child {
         justify-content: end;
     }
     #testimonials .test-col-left {
-        flex-basis:20%;
+        flex-basis:25%;
+        margin-left: 0;
     }
     #testimonials .test-col-right {
         flex-basis: 70%;
@@ -530,5 +531,9 @@ footer p:last-child {
 @media screen and (min-width:1200px) {
     .container {
         max-width: 1140px;
+    }
+    #testimonials .test-col-left {
+        flex-basis: 19%;
+        margin: 0 auto;
     }
 }
